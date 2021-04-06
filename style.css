@@ -1,0 +1,140 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mainTaskWindow {
+  overflow: auto;
+  width: auto;
+  height: 320px;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: center;
+}
+
+#inputField {
+  width: 400px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px gray;
+  margin: 0px;
+}
+
+#Text {
+  color: grey;
+  width: 210px;
+  display: flex;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  overflow: auto;
+  opacity: 1;
+  transition: 0.3s;
+}
+#Text:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+/* ADD bottom settings */
+#addBtn {
+  margin-left: 5px;
+  background-color: rgb(76, 179, 168);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 50px;
+  transition: 0.3s;
+}
+#addBtn:hover {
+  background-color: rgb(87, 209, 197);
+  transition: 0.3s;
+}
+#addBtn:active {
+  background-color: rgb(96, 245, 230);
+  transition: 0.3s;
+}
+#addBtn:active {
+  background-color: rgb(96, 245, 230);
+  transition: 0.3s;
+}
+#addBtn:focus {
+  outline: none;
+}
+/*----------------------*/
+
+/* Collor bottom settings */
+.colorBtn {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  border: none;
+  opacity: 1;
+  transition: 0.3s;
+}
+.colorBtn:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.colorBtn:active {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.colorBtn:focus {
+  transition: 0.3s;
+  outline-color: black;
+  outline-style: solid 3px;
+}
+/*----------------------*/
+
+.newTask {
+  min-width: auto;
+  min-height: 50px;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+#taskCheckBoxBorder {
+  min-height: 50px;
+  min-width: 50px;
+  border: solid 1px black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+#taskTextBorder {
+  min-height: 50px;
+  width: 339px;
+  border: solid 1px black;
+
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  overflow: auto;
+  margin: 1px;
+}
+
+#btnField {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  right: 7px;
+  top: 7px;
+}
+
+#colorPicker {
+  display: flex;
+  align-items: center;
+
+}

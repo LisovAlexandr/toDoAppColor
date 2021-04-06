@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="mainTaskWindow"></div>
+    <div id="inputField">
+      <input type="text" id="Text" placeholder="Вводите буковы" />
+
+      <div id="btnField">
+        <div id="colorPicker">
+          <input
+            id="red"
+            type="button"
+            class="colorBtn"
+            value=""
+            style="background-color: lightcoral;"
+            onclick="colorButtonClickHandler(event)"
+          />
+          <input
+            id="pink"
+            type="button"
+            class="colorBtn"
+            value=""
+            style="background-color: pink;"
+            onclick="colorButtonClickHandler(event)"
+          />
+          <input
+            id="purple"
+            type="button"
+            class="colorBtn"
+            value=""
+            style="background-color: slateblue;"
+            onclick="colorButtonClickHandler(event)"
+          />
+          <input
+            id="blue"
+            type="button"
+            class="colorBtn"
+            value=""
+            style="background-color: royalblue;"
+            onclick="colorButtonClickHandler(event)"
+          />
+          <input
+            id="lightblue"
+            type="button"
+            class="colorBtn"
+            value=""
+            style="background-color: rgb(91, 193, 233);"
+            onclick="colorButtonClickHandler(event)"
+          />
+          <input
+            id="yellow"
+            type="button"
+            class="colorBtn"
+            value=""
+            style="background-color: rgb(241, 232, 144);"
+            onclick="colorButtonClickHandler(event)"
+          />
+        </div>
+
+        <input type="button" id="addBtn" value="ADD" onclick="taskAdder()" />
+      </div>
+    </div>
+  </body>
+</html>
